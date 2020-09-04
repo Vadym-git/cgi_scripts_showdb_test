@@ -1,0 +1,39 @@
+table#general{
+  table-layout:fixed;
+  width:100%;
+  overflow:hidden;
+  word-wrap:break-word;
+}
+td#select_table{
+  table-layout:fixed;
+  width:10%;
+  overflow:hidden;
+  word-wrap:break-word;
+}
+table#data{
+  table-layout:fixed;
+  width:100%;
+  overflow:hidden;
+  word-wrap:break-word;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+background: #AFCDE7;
+color: white;
+padding: 10px 20px;
+}
+th, td#loaddata {
+border-style: solid;
+border-width: 0 1px 1px 0;
+border-color: white;
+}
+td#loaddata {
+background: #D8E6F3;
+}
+th:first-child, td:first-child {
+text-align: left;
+}

@@ -1,0 +1,1 @@
+/home/vadym/Documents/CODING/showdb/v_1_02/bot.db
